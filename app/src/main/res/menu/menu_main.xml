@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_add" android:title="添加"
+          android:icon="@mipmap/ic_launcher"
+        android:orderInCategory="100" app:showAsAction="ifRoom"></item>
+    <item android:id="@+id/action_delete" android:title="删除"
+        android:icon="@mipmap/ic_launcher"
+        android:orderInCategory="100" app:showAsAction="ifRoom"></item>
+    <item android:id="@+id/action_linear" android:title="LinearLayout"
+          android:orderInCategory="100" app:showAsAction="never"></item>
+    <item android:id="@+id/action_grid" android:title="垂直GridLayout"
+          android:orderInCategory="100" app:showAsAction="never"></item>
+    <item android:id="@+id/action_staggeredgrid" android:title="StaggeredGridLayout"
+          android:orderInCategory="100" app:showAsAction="never"></item>
+    <item android:id="@+id/action_grid_horizontal" android:title="水平GridLayout"
+          android:orderInCategory="100" app:showAsAction="never"></item>
+</menu>
